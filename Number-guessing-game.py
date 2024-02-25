@@ -8,7 +8,7 @@ def number_gen():
     guess = int(input('Enter a number: '))
     num = random.randint(1, 100)  # Generate a new random number for the next iteration
   else:
-    print("You guessed right!")
+    print("You guessed right!, You win!")
     
 
 
